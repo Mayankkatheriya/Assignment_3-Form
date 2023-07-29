@@ -30,24 +30,38 @@ The type="text" attribute in the 'input' element is used to create a single-line
 ![2](https://github.com/Mayankkatheriya/Assignment_3-Form/assets/128832286/036bb114-9684-4859-80bc-861fcb6f122d)
 ![2A](https://github.com/Mayankkatheriya/Assignment_3-Form/assets/128832286/2c9e5c27-5970-4f41-a774-f77b06dd2ff2)
 
-"Select": The 'select' element is used to create a dropdown list or a list box in HTML. It allows users to choose one or more options from the list. The list of options is defined using <option> elements nested inside the <select> element.
+"Select": The 'select' element is used to create a dropdown list or a list box in HTML. It allows users to choose one or more options from the list. The list of options is defined using <option> elements nested inside the 'select' element.
 
-"Option": The <option> element is used to define individual options within a 'select' element. It represents a single item in the dropdown list. The text inside the 'option' tag is displayed as the option's label, and the value attribute can be used to specify the value associated with the selected option. If the value attribute is not provided, the text content of the <option> is used as the value by default.
+"Option": The 'option' element is used to define individual options within a 'select' element. It represents a single item in the dropdown list. The text inside the 'option' tag is displayed as the option's label, and the value attribute can be used to specify the value associated with the selected option. If the value attribute is not provided, the text content of the 'option' is used as the value by default.
 
 ![3](https://github.com/Mayankkatheriya/Assignment_3-Form/assets/128832286/8acfa4e5-9ed9-4046-8ca3-0fa35d4beeb7)
 ![3A](https://github.com/Mayankkatheriya/Assignment_3-Form/assets/128832286/bea22469-b434-4655-a387-87f77a6f1f7c)
 
+"Radio": The "radio" input type in HTML is used to create a radio button. Radio buttons are a type of input that allows users to select one option from a list of mutually exclusive choices. When using radio buttons, only one option can be selected at a time within a specific group. To group radio buttons together, you should use the same "name" attribute for each radio button in the group.
+
 ![4](https://github.com/Mayankkatheriya/Assignment_3-Form/assets/128832286/7c48c491-7216-4cd5-b61c-dc5b9cf79679)
 ![4A](https://github.com/Mayankkatheriya/Assignment_3-Form/assets/128832286/af88f627-55c9-4ccc-81d2-d08097bb686b)
+
+The datetime-local input type allows users to select both date and time using a date picker and time picker, all in one input field. The selected value will include both the date and time information.
+
+As with other input types, keep in mind that browser support may vary, so it's essential to test how it behaves in different browsers and provide fallback options or validation if needed.
+
+"Placeholder": The "placeholder" attribute in the 'input' element is used to provide a short hint or example text that appears inside the input field when it is empty. It serves as a visual guide to users, indicating the type of information or format they should enter into the input.
+
+"Required": The "required" attribute is used in form elements (such as input fields) to indicate that the user must fill in the field before submitting the form. It is typically used for mandatory fields in a form, ensuring that the user cannot submit the form without providing the required information.
+
+"Disabled": The "disabled" attribute is used to disable an input element or form control, preventing the user from interacting with it. Disabled elements cannot be edited or selected, and their values are not submitted when the form is submitted.
 
 ![5](https://github.com/Mayankkatheriya/Assignment_3-Form/assets/128832286/175f43fb-8651-41af-8aa9-8fd79ec06286)
 ![5A](https://github.com/Mayankkatheriya/Assignment_3-Form/assets/128832286/1bb2aef8-a39f-4e4d-9094-a2ff1b9ed1ac)
 
+"Checkbox": The "checkbox" input type is used to create a checkbox control in HTML. It allows users to select one or more options from a list of choices. When the checkbox is checked, its value is submitted with the form data.
 
+"File": The "file" input type is used to create a file upload control in HTML. It allows users to select files from their device and upload them to a server.
 
+"Color": The "color" input type is used to create a color picker control in HTML. It allows users to select a color from the palette.
 
+"Reset": The "reset" input type is used to create a button that resets all the form fields to their default values.
 
-
-
-
+"Button": The "button" input type is used to create a clickable button in HTML. It can be used to trigger custom JavaScript functions or other actions.
 
